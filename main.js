@@ -26,7 +26,7 @@ class Zoo {
             console.log("The price for adult is 50 shekels");
         }
         else{
-            console.log("The price for retriee is 35 shekels");
+            console.log("The price for retired is 35 shekels");
         }
         }
     }
