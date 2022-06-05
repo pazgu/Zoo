@@ -1,5 +1,5 @@
 
-class zoo {
+class Zoo {
     ZooName = `Biblical Zoo`;
     OpeningHours = '8 am till 9 pm';
     HasResturants = true;
@@ -8,11 +8,12 @@ class zoo {
 
     HowManyVisitors(){
         let visitors=0;
-        while (visitors!=7000){
+        while (visitors !== 7000){
             visitors+=1;
              let message="You can still enter + ${7000-visitors} + people to the zoo";
         }
         const message= "The place is full";
+        console.log(message);
         return message;
     }
 
@@ -31,5 +32,6 @@ class zoo {
     }
 
 
-
+const z = new Zoo();
+z.HowManyVisitors();
 
