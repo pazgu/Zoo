@@ -12,7 +12,7 @@ class zoo {
             visitors+=1;
              let message="You can still enter + ${7000-visitors} + people to the zoo";
         }
-         message= "The place is full";
+        const message= "The place is full";
         return message;
     }
 
