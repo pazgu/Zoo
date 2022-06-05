@@ -34,4 +34,4 @@ class Zoo {
 
 const z = new Zoo();
 z.HowManyVisitors();
-
+z.TicketPrice(5);
